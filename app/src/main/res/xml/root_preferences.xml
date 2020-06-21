@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/ListItems_Header">
+
+        <com.takisoft.preferencex.EditTextPreference
+            app:key="fontSize"
+            app:title="@string/font_size"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="26"
+            android:inputType="number"
+            android:digits="0123456789"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

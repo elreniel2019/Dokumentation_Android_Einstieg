@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyTodoList</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="noItems">keine Einträge enthalten</string>
+
+    <string name="hint_todo_Title">Titel</string>
+    <string name="hint_todo_Description">Beschreibung</string>
+    <string name="button_save">Sichern</string>
+    <string name="button_delete">Löschen</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="Todo_empty_not_saved">Todo-Eintrag nicht gesichert, da der Titel leer ist.</string>
+    <string name="Priority_empty_not_saved">Priority-Eintrag nicht gesichert, da der Titel leer ist.</string>
+    <string name="hint_todo_Date">Ablaufdatum</string>
+
+    <!-- Aktionen, welche über Intent kommuniziert werden-->
+    <string name="itemAdd">de.fhStralsund.rmeier.mytodolist.itemAdd</string>
+    <string name="itemUpdate">de.fhStralsund.rmeier.mytodolist.itemUpdate</string>
+    <string name="itemCancel">de.fhStralsund.rmeier.mytodolist.itemCancel</string>
+    <string name="itemDelete">de.fhStralsund.rmeier.mytodolist.itemDelete</string>
+    <string name="action_categories">Kategorien</string>
+    <string name="action_priorities">Prioritäten</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="ListItems_Header">Einträge</string>
+
+    <!-- Messages Preferences -->
+    <string name="font_size">Schriftgröße</string>
+    <string name="prefListFontSize">fontSize</string>
+    <string name="prefListFontSizeDefault">26</string>
+    <string name="add_word">Eintrag hinzufügen</string>
+    <string name="hint_Priority_name">Priorität</string>
+
+</resources>

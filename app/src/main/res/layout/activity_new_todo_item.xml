@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edit_todoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/hint_todo_Title"
+                android:inputType="textAutoComplete"
+                android:layout_margin="@dimen/big_padding"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_todoDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height_Description"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/hint_todo_Description"
+                android:inputType="textMultiLine"
+                android:layout_margin="@dimen/big_padding"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_todoDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/hint_todo_Date"
+                android:layout_margin="@dimen/big_padding"
+                android:textSize="18sp"
+                android:inputType="date" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spinner_TodoPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/min_height"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/hint_todo_Date"
+                android:layout_margin="@dimen/big_padding"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/button_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/big_padding"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:minHeight="30dp"
+                    android:text="@string/button_delete"
+                    android:textColor="@color/buttonLabel" />
+
+                <Button
+                    android:id="@+id/button_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/big_padding"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:minHeight="30dp"
+                    android:text="@string/button_save"
+                    android:textColor="@color/buttonLabel" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

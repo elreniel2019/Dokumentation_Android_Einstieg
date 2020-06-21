@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="big_padding">20dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="min_height">20dp</dimen>
+    <dimen name="min_height_Description">100dp</dimen>
+</resources>
